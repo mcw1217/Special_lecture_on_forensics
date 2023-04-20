@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.snb { width: 213px; margin-left:130px;}
+.snb h2 { padding: 22px 0 0 18px;  height:86px; background: #36818c; color: #fff; font-size: 27px;}
+.snb h2 span { display: block; color: #fff; font-size: 16px;}
+.snb > ul { -webkit-padding-start:0px;}
+
+.snb > ul > li { border-bottom: 1px solid #e1e1e1;}
+.snb > ul > li > a { display: block; height: 44px; line-height: 44px; font-weight: bold; font-size: 14px; color: #666; text-indent: 19px;}
+.snb > ul > li:hover > a { color: #36818c;}
+.snb > ul > li:hover > a:after { content:url(../images/bg_snb.gif); position: relative; top: 2px; margin-left: 10px;}
+.snb > ul > li:hover > a + ul { display: block;}
+.snb > ul ul { display: none;padding: 0 0 4px 30px;}
+.snb > ul ul a { padding-left: 10px; font-size: 13px; color: #666; background: url(../images/bg_snb2.gif) no-repeat left;}
+.snb > ul ul a:hover  { color: #36818c; background: url(../images/bg_snb2_on.gif) no-repeat left;}
+.snb > ul ul li { padding: 0 0 11px;}
